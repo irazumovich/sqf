@@ -21,7 +21,7 @@ services:
 
   postgres:
     image: postgres:10
-    container_name: laravel-postgres
+    container_name: sqf-postgres
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=secret
